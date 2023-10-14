@@ -26,8 +26,7 @@ def show_help():
     print(f'''Usage:
     {Color.BOLD}-n <value> -e <value> -c <filename> [-v]{Color.END}
         Takes contents of RSA-encrypted file and tries to decrypt it using Fermat's attack.
-        Parameters need to be positive integers. Decoded file will be called "decoded_<file>".
-        Use option "-v" for verbose output.
+        Parameters need to be positive integers. Use option "-v" for verbose output.
     {Color.BOLD}-h, --help{Color.END}
         Displays this message.''')
 
